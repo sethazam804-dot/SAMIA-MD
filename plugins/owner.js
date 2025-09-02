@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'PROxABDULLAH-MD' }, // Image URL from your request
-            caption: `╭━━〔 *PROxABDULLAH-MD* 〕━━┈⊷
+            caption: `╭━━〔 *SAMIA-MD* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -44,8 +44,8 @@ async (conn, mek, m, { from }) => {
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363403870276377@newsletter',
-                    newsletterName: '*PROxABDULLAH-MD*',
+                    newsletterJid: '```120363420872519044@newsletter```',
+                    newsletterName: '*SAMIA-MD*',
                     serverMessageId: 143
                 }            
             }
